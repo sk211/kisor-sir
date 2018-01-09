@@ -1,0 +1,107 @@
+*{
+	margin: 0; padding: 0; outline: none;
+}
+a{
+	text-decoration: none;
+	
+}
+body{
+	background: #fff;
+	font-family: "Arial", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+	margin: 0;
+}
+.top{
+	background: #1f1f24;
+}
+.menu{
+	padding: 30px 0;
+}
+.menu ul{
+	
+}
+.menu ul li{
+	display: inline-block;
+	list-style: none;
+	
+}
+.menu ul li a{
+	color: #7a7f88;
+	padding: 0 15px;
+}
+.menu ul li a:hover{
+	color: #fff;
+	border-bottom:5px solid #da3300;
+	text-decoration: none;
+	padding-bottom: 32px;
+	
+}
+.search {
+	background: #655c5c;
+	padding: 11px 10px;
+	margin-top: 34px;
+	margin-right: -67px;
+}
+.banner{
+	position: relative;
+}
+.banner_text{
+	position: absolute;
+	top: 50px;
+	left: 7%;
+}
+.banner_text h3{
+	color: white;
+	background: rgba(0,0,0,.4);
+	padding: 20px 30px;
+}
+.banner_text p{
+	color: white;
+	background: rgba(255,255,255,.4);
+	padding: 20px 30px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.map{
+	border-bottom: 2px solid #d6dddf;
+	padding: 80px 0;
+	background: url("images/shokunin-world-map-more-detail.png") no-repeat top center ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.laptop{
+	text-align: center;
+}
+.laptop img{
+	text-align: center;
+	display: inline-block;
+}
+.laptop hr{
+	background: #c8c8c8;
+	border: none;
+	width: 130px;
+	height: 1px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px 0;
+}
+.image_gallery{
+	text-align: center;
+	margin-top: 50px;
+}
+ .image_gallery hr{
+	background: #c8c8c8;
+	border: none;
+	width: 130px;
+	height: 1px;
+	text-align: center;
+	
+	margin: 10px auto;
+}
+.images{
+	width: 20%;
+}
+.images{
+	float: left;
+}
